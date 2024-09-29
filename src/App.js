@@ -36,15 +36,16 @@ function App() {
 
   return (
       <div className="card App shadow" style={{width: '30rem'}}>
-      <img className="card-img-top" style={{height:"120px"}} src="https://www.workflowmax.com/hubfs/6-things-to-do-list.png" alt="Card image cap"></img>
+      {/* <img className="card-img-top" height="200" src="https://croftonpark.org.uk/wp-content/uploads/2020/08/ToDoList-banner.jpg" alt="Card image cap"></img> */}
       <div className="card-body">
-      <h5 className="card-title">To Do List</h5>
-      <ul style={{display: 'flex'}}><li><input style={{width: '370px'}} id="text1" type="text" onChange={changeIt} placeholder='Add a ToDo' /></li>
+      {/* <h2 className="card-title" style={{color:'gold',marginBottom:"50px"}}>Goals for Today</h2> */}
+      <img className="card-img-top" height="150" src="../todolist.jpg"></img>
+      <ul style={{display: 'flex'}}><li><input style={{width:'370px',height:"38px",paddingLeft:"13px"}} id="text1" type="text" onChange={changeIt} placeholder='Add a ToDo' /></li>
       <li><a href="#" onClick={addIt} className="btn btn-primary shadow">Add</a></li></ul>
       {b.map((name1)=>{
         return(<Todoitems name={name1} remove={removeIt} change2={changeIt2}/>)}
       )}
-      <button style={{width:'100px'}} className="btn btn-primary" onClick={()=> document.location.reload()}>Refresh</button>
+      {/* <button style={{width:'100px'}} className="btn btn-primary" onClick={()=> document.location.reload()}>Refresh</button> */}
       </div>
       </div>  
   );

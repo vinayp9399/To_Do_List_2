@@ -35,12 +35,12 @@ export function Todoitems(props) {
                 
             </div>
             <div id="buttons" style={{width:'156px'}}>
-                <i style={{marginRight:'10px'}} onClick={(e) => {e.target.parentNode.parentNode.style.backgroundColor='rgb(63,255,0)'; e.target.parentNode.style.display='none';}} className="bi bi-check2-circle"></i>
+                <i style={{marginRight:'10px'}} onClick={(e) => {e.target.parentNode.parentNode.style.backgroundColor='green'; e.target.parentNode.style.display='none';}} className="bi bi-check2-circle"></i>
                 <i style={{marginRight:'10px'}} onClick={todoEdit1} className="bi bi-pencil"></i>
                 <i style={{marginRight:'10px'}} onClick={(e) => {props.remove(props.name);}} className="bi bi-trash"></i>
             </div>
             <div>
-            {n == 1 ? <><input id="settodo" onChange={todoEdit} style={{marginLeft: '-259px', marginTop:'5px'}}></input><button className='btn btn-primary' onClick={editIt} style={{backgroundColor:'lightgreen', height:"35px"}}>Edit</button></>: null }
+            {n == 1 ? <><input id="settodo" onChange={todoEdit} style={{marginLeft: '-259px', marginTop:'5px'}}></input><button className='btn btn-primary' onClick={editIt} style={{backgroundColor:'green', height:"35px"}}>Edit</button></>: null }
             </div>
         </div>
         </>

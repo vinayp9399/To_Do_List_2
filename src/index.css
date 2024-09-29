@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(0, 102, 255);
+  background-image: url("https://img.freepik.com/premium-photo/todo-list-blue-clipboard-with-pencil-resting-it-with-copy-space-dark-background_671359-174.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: 30cm;
+  
 }
 
 code {

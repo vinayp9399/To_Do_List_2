@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   position: absolute;
-  top: 40px;
-  left: 400px;
+  top: 15px;
+  left: 674px;
+  background-color:transparent;
 }
 .todoitems{
   background: rgb(0, 102, 255);
